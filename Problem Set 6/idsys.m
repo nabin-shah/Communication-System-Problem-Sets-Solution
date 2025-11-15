@@ -39,3 +39,6 @@ lmp=length(mprime);
 pererr=100*sum(abs(sign(mprime-m(1:lmp))))/lmp,  % symb err
 % decode decision device output to text string
 reconstructed_message=pam2letters(mprime)  % reconstruct message
+
+
+
